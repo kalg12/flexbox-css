@@ -9,8 +9,29 @@ h1 {
 
 .futbol {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .futbol h1 {
   color: rgb(51, 21, 161);
+}
+
+.futbol img {
+  height: 280px;
+  width: 140px;
+  margin: 0 20px;
+}
+
+/* EJEMPLO DE BOTONES */
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.botones button {
+  margin: 20px;
 }
